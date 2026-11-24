@@ -1,4 +1,4 @@
-![The workspace picker dialog in a running DSH client](preview.png)
+![The workspace picker dialog in a running DSH client](preview.jpg)
 
 # Pick a workspace before a new chat starts
 

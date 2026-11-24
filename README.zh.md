@@ -4,7 +4,7 @@
 
 开始新对话的那一刻，先问一句「这次在哪个目录」。
 
-<img src="docs/preview.png" alt="运行中的工作区选择对话框" width="480">
+<img src="docs/preview.jpg" alt="运行中的工作区选择对话框" width="480">
 
 所有开启新对话的入口——`Ctrl+N`、侧边栏顶部的**新会话**行、展开的 brand 图标，以及替换侧边栏的插件（如 `dsh-workspace-plus`）的 `+` 按钮——最终都调用同一个不带参数的 `uiWorkspace.startSession()`。本插件只拦截这一个调用：
 

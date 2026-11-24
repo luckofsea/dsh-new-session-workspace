@@ -4,7 +4,7 @@
 
 Ask which folder a new chat belongs in, right when you start it.
 
-<img src="docs/preview.png" alt="The workspace picker dialog in a running DSH client" width="480">
+<img src="docs/preview.jpg" alt="The workspace picker dialog in a running DSH client" width="480">
 
 Every way of starting a DSH conversation — `Ctrl+N`, the **New session** row at the top of the sidebar, the expanded brand mark, and the `+` buttons of sidebar-replacing plugins — goes through the same unscoped `uiWorkspace.startSession()`. This plugin intercepts that single call and asks first:
 
