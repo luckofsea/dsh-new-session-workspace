@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Pick a workspace for a new chat",
+    "description": "Ctrl+N or New session first asks which workspace to use, and can create a folder named after today's date.",
+    "detail": "docs/DETAIL.md"
+  }
+}

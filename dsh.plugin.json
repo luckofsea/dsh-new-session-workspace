@@ -1,0 +1,13 @@
+{
+  "id": "dsh-local/dsh-new-session-workspace",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "description": "打开新对话时弹出对话框选择工作区文件夹；除现有工作区外，还可以新建一个默认以当天日期命名的工作区。",
+  "engines": {
+    "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+  },
+  "contributes": {
+    "tools": [],
+    "skills": []
+  }
+}

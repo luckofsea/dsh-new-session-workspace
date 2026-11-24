@@ -1,0 +1,55 @@
+{
+  "name": "dsh-new-session-workspace",
+  "version": "0.1.0",
+  "description": "Ask which workspace to use whenever a new DSH conversation starts, and create a dated folder on the spot.",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./client": "./dist/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "dist",
+    "locale",
+    "docs",
+    "assets",
+    "icon.svg",
+    "cordis.patch.yml",
+    "dsh.plugin.json",
+    "README.md",
+    "README.zh.md",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18",
+    "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "workspace",
+    "new-session"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckofsea/dsh-new-session-workspace.git"
+  },
+  "homepage": "https://github.com/luckofsea/dsh-new-session-workspace#readme",
+  "bugs": {
+    "url": "https://github.com/luckofsea/dsh-new-session-workspace/issues"
+  },
+  "author": "luckofsea",
+  "license": "GPL-3.0-only",
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

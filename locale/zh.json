@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "新建对话先选工作区",
+    "description": "按 Ctrl+N 或点「新建会话」时先弹出对话框：从现有工作区中选择，或新建一个默认以当天日期命名的文件夹。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}
